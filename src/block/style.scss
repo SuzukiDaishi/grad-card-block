@@ -1,0 +1,61 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-test-block  {
+  
+  //background: rgb(209, 238, 255);
+
+  &>div>.number {
+    text-align: center;
+    width: 100%;
+    &>.text {
+      color: rgba(0, 0, 0, 0);
+      background: linear-gradient(to bottom, #234794, #EE82EE);
+      font-size: 3em;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    &>.bar {
+      width: 15%;
+      height: 4px;
+      background: linear-gradient(to right, #234794, #EE82EE);
+      padding: 0;
+      margin : 0 auto;
+      margin-bottom: 5%;
+      border: 0;
+    }
+  }
+
+  &>div>.titlebox {
+    text-align: center;
+
+    &>.title-text {
+      font-size: 1.5em;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 2%;
+    }
+    &>.sub-title-text {
+      color: rgb(83, 105, 208);
+    }
+  }
+
+  &>div>.bar-black {
+    width: 50%;
+    height: 0.5px;
+    background: black;
+    padding: 0;
+    margin : 0 auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border: 0;
+  }
+
+  &>div>.main-text {
+    padding: 0 10%;
+    padding-bottom: 10%;
+  }
+}
