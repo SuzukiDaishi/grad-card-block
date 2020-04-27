@@ -96,7 +96,7 @@ registerBlockType( 'cgb/block-test-block', {
 					<div className="titlebox">
 						<RichText
 							hag="div"
-							className="title-text"
+							className="title-text-zk"
 							value={ props.attributes.titleContent }
 							formattingControls={ [ 'bold', 'italic' ] }
 							onChange={ ( titleContent ) => props.setAttributes( { titleContent } ) }
@@ -148,7 +148,7 @@ registerBlockType( 'cgb/block-test-block', {
 					<div className="titlebox">
 						<RichText.Content
 							tagName="div"
-							className="title-text"
+							className="title-text-zk"
 							value={ props.attributes.titleContent }
 						/>
 						<RichText.Content
